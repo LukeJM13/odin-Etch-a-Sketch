@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Solitreo&display=swap');
+
+* {
+    font-family: 'Solitreo', cursive;
+}
+
+
 .mainBody {
     display: grid;
     grid-template-columns: repeat(16, 1fr);
@@ -10,11 +17,18 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 30px;
+    gap: 80px;
+    margin-top: 10px;
 }
 
 .resetButton {
     font-size: 25px;
+    border-style: none;
+    background-color: white;
+}
+
+.resetButton:hover {
+    color: rgb(65, 110, 110);
 }
 
 .body {
@@ -34,9 +48,38 @@
 }
 
 .section:hover {
-    background-color: black;
+    background-color: hsla(0, 0%, 0%, 0.2)
 }
 
 #switcher {
     font-size: 20px;
+    border-style: none;
+}
+
+#switcher:hover {
+    color: rgb(65, 110, 110);
+}
+
+.headLeft {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.headRight {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.nameLink {
+    text-decoration: none;
+}
+
+.nameLink:visited {
+    color: black;
+}
+
+.nameLink:hover {
+    color: rgb(65, 110, 110);
 }
