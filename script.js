@@ -12,7 +12,7 @@ for (let i = 0; i < 256; i++) {
 const pixels = document.querySelectorAll('.section');
 
 pixels.forEach((pixel) => {
-    pixel.addEventListener('click', () => {
+    pixel.addEventListener('mouseover', () => {
         pixel.style.backgroundColor = 'black';
     });
   });
@@ -50,7 +50,7 @@ pixels.forEach((pixel) => {
         pixel.style.height = "11px";
     }
 
-    pixel.addEventListener('click', () => {
+    pixel.addEventListener('mouseover', () => {
         pixel.style.backgroundColor = 'black';
     });
   });
